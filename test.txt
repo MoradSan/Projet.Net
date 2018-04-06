@@ -1,6 +1,0 @@
-void test(){
-	CFichier fichier;
-	CMatrice <double> * pdMatrice = new CMatrice <double>(fichier.FCHLireMatrice("fichier1.txt"));
-	double dConstante = 5.0;
-	((*pdMatrice) / dConstante).MATAfficher();
-}
